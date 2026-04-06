@@ -1,28 +1,28 @@
 const prendas = {
   'TRAJE-001': {
     id: 'TRAJE-001',
-    nombre: 'Camisa de Algodón Orgánico',
-    origen: 'Medellín, Colombia',
-    artesano: 'María Elena García',
-    fechaCreacion: '2024-01-15',
-    materiales: ['Algodón Orgánico 100%', 'Tinte Natural de Índigo'],
-    relato: 'Esta prenda fue tejida a mano por María Elena, una artesana con 30 años de experiencia en la producción textil sostenible. El algodón proviene de cooperativas certificadas en la región del Cauca.',
-    certificaciones: ['Certificado GOTS', 'Comercio Justo', 'Vegan'],
+    nombre: 'Poncho Artesanal Internacional de Gemas',
+    origen: 'Boyacá, Colombia', // Origen probable basado en el estilo del tejido
+    artesano: 'Taller Textil Tradicional', 
+    fechaCreacion: '2026-04-05',
+    materiales: ['Lana de oveja natural', 'Hilos sintéticos para bordado'],
+    relato: 'Poncho tradicional de color crudo con franjas negras verticales y flecos en el borde inferior. Esta pieza cuenta con un bordado central personalizado de la empresa "Internacional de Gemas", integrando la identidad corporativa con la tradición textil colombiana.',
+    certificaciones: ['Artesanía de Colombia', 'Hecho a Mano'],
     imagenesProceso: [
-      'https://via.placeholder.com/400x300?text=Cosecha+de+Algodón',
-      'https://via.placeholder.com/400x300?text=Proceso+de+Hilado',
-      'https://via.placeholder.com/400x300?text=Tejido+Manual',
-      'https://via.placeholder.com/400x300?text=Empaque+Final'
+      'https://via.placeholder.com/400x300?text=Esquilado+de+Lana',
+      'https://via.placeholder.com/400x300?text=Tejido+en+Telar',
+      'https://via.placeholder.com/400x300?text=Bordado+Logotipo',
+      'https://via.placeholder.com/400x300?text=Acabado+de+Flecos'
     ],
     impactoAmbos: {
-      huellaCarbono: '2.5 kg CO₂',
-      aguaUsada: '1,800 litros',
-      residuos: 'Cero residuos',
-      detalles: 'Producción con energía solar y tinturas naturales sin químicos tóxicos'
+      huellaCarbono: '1.8 kg CO₂',
+      aguaUsada: '450 litros',
+      residuos: 'Bajo residuo (biodegradable)',
+      detalles: 'Lana virgen procesada localmente con técnicas de tejido manual que reducen el consumo eléctrico.'
     },
-    precioRecomendado: '$89,000',
-    stock: 15
-  },
+    precioRecomendado: '$120,000',
+    stock: 5
+},
 
   'TRAJE-002': {
     id: 'TRAJE-002',
