@@ -26,8 +26,5 @@
         }
       ]
     }
-  ],
-  "env": {
-    "VITE_BASE_URL": "@vite_base_url"
-  }
+  ]
 }
