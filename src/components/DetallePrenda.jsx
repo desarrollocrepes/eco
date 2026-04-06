@@ -54,6 +54,7 @@ export default function DetallePrenda() {
   }
 
   const imagenesProceso = prenda.imagenesProceso || [];
+  const imagenActualUrl = imagenesProceso[imagenActual];
   const siguienteImagen = () => {
     setImagenActual((prev) => (prev + 1) % imagenesProceso.length);
   };
@@ -134,7 +135,11 @@ export default function DetallePrenda() {
           <h2>Proceso de Producción</h2>
           <div className="galeria-container">
             <div className="galeria-imagen">
-              <p className="galeria-placeholder">Galería de imágenes del proceso</p>
+              {imagenActualUrl ? (
+                <img src={imagenActualUrl} alt={`Proceso de producción ${imagenActual + 1}`} />
+              ) : (
+                <p className="galeria-placeholder">Galería de imágenes del proceso</p>
+              )}
             </div>
             <div className="galeria-controles">
               <button onClick={anteriorImagen} className="btn-nav">

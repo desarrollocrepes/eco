@@ -1,3 +1,5 @@
+import prenda001 from '../assets/PRENDA001.jpeg';
+
 const prendas = {
   'TRAJE-001': {
     id: 'TRAJE-001',
@@ -9,7 +11,7 @@ const prendas = {
     relato: 'Poncho tradicional de color crudo con franjas negras verticales y flecos en el borde inferior. Esta pieza cuenta con un bordado central personalizado de la empresa "Internacional de Gemas", integrando la identidad corporativa con la tradición textil colombiana.',
     certificaciones: ['Artesanía de Colombia', 'Hecho a Mano'],
     imagenesProceso: [
-      'https://via.placeholder.com/400x300?text=Esquilado+de+Lana',
+      prenda001,
       'https://via.placeholder.com/400x300?text=Tejido+en+Telar',
       'https://via.placeholder.com/400x300?text=Bordado+Logotipo',
       'https://via.placeholder.com/400x300?text=Acabado+de+Flecos'
